@@ -1,4 +1,4 @@
-# Projet Scinetifique d'Initiation à la Recherche - Surveillance Algorithmique
+# Projet Scientifique d'Initiation à la Recherche - Surveillance Algorithmique
 
 ## Description du projet
 
