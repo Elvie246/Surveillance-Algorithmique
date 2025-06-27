@@ -1,47 +1,52 @@
-# Projet Scientifique d'Initiation à la Recherche - Surveillance Algorithmique
+# Projet de Surveillance Algorithmique – Recherche et IA
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![OpenCV](https://img.shields.io/badge/OpenCV-Used-important?logo=opencv)
+![MachineLearning](https://img.shields.io/badge/Machine%20Learning-AI-green?logo=scikit-learn)
+![Status](https://img.shields.io/badge/Status-%20Achevé-yellow)
 
-## Description du projet
 
-Ce projet de recherche a pour objectif de développer et d'évaluer un modèle de reconnaissance de surveillance vidéos en utilisant des datasets de scènes provenant de la vie réelle. Le modèle utilise des techniques de traitement d'images et de vision par ordinateur pour analyser des vidéos et détecter des événements violents.
+> Projet Scientifique d'Initiation à la Recherche (PSIR)  
+> Thème : Surveillance algorithmiqe appliquée à des patients, bébés, personnes agées,...
 
-Le dataset utilisé dans ce projet comprend deux sources principales :
+---
 
-1. **Real Life Violence Dataset** : Ce dataset contient des vidéos annotées comprenant des scènes de violence provenant de la vie réelle.
-2. **Real Life Violence Situations** : Ce dataset comprend des informations sur les différentes situations dans lesquelles la violence peut survenir, ainsi que des contextes sociaux et environnementaux.
+##  Description
 
-Les objectifs principaux du projet incluent :
-- La préparation et l'exploration des données.
-- La création et l'entraînement de modèles pour la reconnaissance de la violence.
-- L'évaluation des performances du modèle sur un ensemble de test.
+Ce projet de recherche vise à **développer un modèle de reconnaissance de violence dans des vidéos** réelles en s'appuyant sur la **vision par ordinateur** et le **machine learning**.
 
-L'objectif principal de cette recherche est de développer un modèle de machine learning capable de détecter des scènes violentes dans des vidéos. Le projet se divise en plusieurs étapes :
+Le modèle s'entraîne à partir de deux bases de données vidéo :
 
-1. **Prétraitement des données** : Nettoyage et transformation des données pour les rendre exploitables par un modèle de machine learning.
-2. **Exploration des données** : Analyse des caractéristiques des vidéos et des situations de violence pour comprendre les relations entre les différentes variables.
-3. **Développement du modèle** : Création de modèles de vision par ordinateur pour détecter la violence dans les vidéos. Nous testerons différents types de modèles, y compris les réseaux neuronaux convolutifs (CNN).
-4. **Évaluation des performances** : Évaluation du modèle à l'aide de métriques telles que la précision, le rappel et la F1-score.
-5. **Analyse des résultats** : Analyse des résultats obtenus, discussion sur l'efficacité du modèle et suggestions d'améliorations.
+-  **Real Life Violence Dataset** : Scènes annotées de violence réelle
+-  **Real Life Violence Situations** : Contexte social/environnemental des scènes violentes
+
+---
+
+## 🎯 Objectifs du projet
+
+Préparer et explorer les données
+- Concevoir et entraîner des modèles de détection (CNN)
+- Évaluer les performances (précision, rappel, F1-score)
+- Analyser les résultats et proposer des améliorations
+
+---
 
 ## Prérequis
 
-Avant d'exécuter ce projet, vous devez installer les dépendances suivantes :
-
 - Python 3.x
-- Les bibliothèques suivantes :
-  - `pandas` : pour le traitement des données
-  - `numpy` : pour les calculs numériques
-  - `matplotlib` : pour la visualisation des données
-  - `scikit-learn` : pour l'entraînement des modèles de machine learning
-  - `opencv` : pour le traitement des vidéos
 
-Les versions spécifiques des bibliothèques sont listées dans le fichier `requirements.txt`.
-
-## Installation
-
-Clonez le projet et installez les dépendances en utilisant `pip` :
+### 📦 Bibliothèques nécessaires
 
 ```bash
-git clone https://github.com/votre-utilisateur/le_projet.git
-cd le_projet
-pip install -r requirements.txt
+pandas
+numpy
+matplotlib
+scikit-learn
+opencv-python
+````
+---
+
+
+
+
+
 
