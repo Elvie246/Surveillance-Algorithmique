@@ -34,7 +34,7 @@ Préparer et explorer les données
 
 - Python 3.x
 
-### 📦 Bibliothèques nécessaires
+###  Bibliothèques nécessaires
 
 ```bash
 pandas
