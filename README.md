@@ -21,7 +21,7 @@ Le modèle s'entraîne à partir de deux bases de données vidéo :
 
 ---
 
-## 🎯 Objectifs du projet
+##  Objectifs du projet
 
 Préparer et explorer les données
 - Concevoir et entraîner des modèles de détection (CNN)
